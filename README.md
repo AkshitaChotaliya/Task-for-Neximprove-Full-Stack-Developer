@@ -56,8 +56,8 @@ project/
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/AkshitaChotaliya/Build-a-REST-API-for-Managing-Customs-Customers-Branches.git
-   cd Build-a-REST-API-for-Managing-Customs-Customers-Branches
+   git clone https://github.com/AkshitaChotaliya/Task-for-Neximprove-Full-Stack-Developer.git
+   cd dir
    ```
 
 2. **Create and Activate a Virtual Environment**
