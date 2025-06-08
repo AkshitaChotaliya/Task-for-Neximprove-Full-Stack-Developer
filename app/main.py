@@ -4,6 +4,9 @@ from . import models, schemas, crud
 from .database import SessionLocal, engine
 from typing import List, Optional
 
+# from dotenv import load_dotenv
+# load_dotenv()
+
 
 models.Base.metadata.create_all(bind=engine)
 

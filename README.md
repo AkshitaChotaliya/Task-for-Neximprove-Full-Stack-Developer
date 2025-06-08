@@ -8,7 +8,6 @@ A RESTful API built with **FastAPI** and **PostgreSQL** to manage customs broker
 ## 📄 Project Overview
 
 ### Background
-b
 Customs brokers often operate across multiple ports with various offices. Each office (branch) files separate customs entries but reports to a central company. This API simulates the backend infrastructure needed to onboard customers and manage the branches where brokers operate.
 
 ### Key Features
@@ -78,7 +77,7 @@ project/
    Create a `.env` file in the root directory:
 
    ```
-   DATABASE_URL=postgresql://postgres:123456789@localhost:5432/api_managing_custome
+   DATABASE_URL=postgresql://postgres:12345@localhost:5433/api_managing_custome
    ```
 
 5. **Initialize the Database**
