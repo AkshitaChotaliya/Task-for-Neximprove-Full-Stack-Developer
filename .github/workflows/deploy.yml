@@ -47,6 +47,8 @@ jobs:
         run: |
           echo "No tests yet - skipping"
 
-      - name: 🐳 Docker Compose Build & Up
+      - name: Install docker-compose
         run: |
-          docker-compose up --build -d
+          sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+          sudo chmod +x /usr/local/bin/docker-compose
+
